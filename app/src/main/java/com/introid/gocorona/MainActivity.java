@@ -7,6 +7,10 @@ import android.view.View;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
+import com.android.volley.Request;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
 import com.leo.simplearcloader.SimpleArcDialog;
 import com.leo.simplearcloader.SimpleArcLoader;
 
@@ -35,6 +39,25 @@ public class MainActivity extends AppCompatActivity {
         simpleArcLoader= findViewById( R.id.loader );
         scrollView= findViewById( R.id.scroll_stats );
         pieChart= findViewById( R.id.piechart );
+
+        fetchData();
+    }
+
+    private void fetchData() {
+        String url= "https://corona.lmao.ninja/v2/all/";
+        simpleArcLoader.start();
+
+        StringRequest request= new StringRequest( Request.Method.GET, url, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+
+            }
+        } );
     }
 
     public void goTrackCountries(View view) {
