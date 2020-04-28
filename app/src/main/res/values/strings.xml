@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Go Corona</string>
+    <string name="track_countries">track countries</string>
+    <string name="total_cases">Total Cases</string>
+    <string name="recovered">Recovered</string>
+    <string name="deaths">Deaths</string>
+    <string name="active">Active</string>
+    <string name="global_stats">global stats</string>
+</resources>
