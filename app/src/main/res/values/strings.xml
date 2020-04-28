@@ -6,4 +6,13 @@
     <string name="deaths">Deaths</string>
     <string name="active">Active</string>
     <string name="global_stats">global stats</string>
+
+    <string name="critical">Critical</string>
+
+    <string name="cases">Cases</string>
+    <string name="_0">0</string>
+    <string name="today_cases">Today Cases</string>
+    <string name="total_deaths">Total Deaths</string>
+    <string name="today_deaths">Today Deaths</string>
+    <string name="affected_countries">Affected Countries</string>
 </resources>
