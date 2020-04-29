@@ -15,4 +15,12 @@
     <string name="total_deaths">Total Deaths</string>
     <string name="today_deaths">Today Deaths</string>
     <string name="affected_countries">Affected Countries</string>
+    <string name="search">Search</string>
+    <string name="india">India</string>
+    <string name="country_detail">Country</string>
+    <string name="cases_detail">Cases</string>
+    <string name="today_cases_detail">Today Cases</string>
+    <string name="deaths_detail">Deaths</string>
+    <string name="today_deaths_detail">Today Deaths</string>
+    <string name="recovered_detail">Recovered</string>
 </resources>
